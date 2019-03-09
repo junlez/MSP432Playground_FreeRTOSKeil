@@ -1,0 +1,626 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.3.193/W32 for ARM                  04/Mar/2019  16:44:57
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Exe\c.out
+#    Map file     =  
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\List\c.map
+#    Command line =  
+#        -f C:\Users\junle\AppData\Local\Temp\EW886.tmp
+#        (E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\BlockQ.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\countsem.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\cpu.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\cs.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\event_groups.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\EventGroupsDemo.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\flash.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\fpu.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\FreeRTOS_CLI.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\GenQTest.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\gpio.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\heap_4.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\interrupt.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\IntQueue.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\IntQueueTimer.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\IntSemTest.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\list.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\main.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\main_blinky.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\main_full.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\msp432_startup_ewarm.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\pcm.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\port.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\portasm.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\queue.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\recmutex.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\RegTest.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\RunTimeStatsTimer.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\Sample-CLI-commands.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\semtest.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\serial.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\sp_flop.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\sysctl.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\system_msp432p401r.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\TaskNotify.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\tasks.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\timer32.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\TimerDemo.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\timers.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\uart.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\UARTCommandConsole.o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj\wdt_a.o
+#        --no_out_extension -o
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Exe\c.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\List\c.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.2\arm\config\linker\TexasInstruments\msp432p401r.icf" --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block PROC_STACK with size = 0M, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P3":  place in [from 0x0 to 0x0] |
+                [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+do not initialize { section .noinit };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section application_specific_ro  in "P2|P4"
+  rw section application_specific_rw  in "P2|P4"
+  section .info                       in "P5"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x144
+  .intvec            const            0x0   0x144  msp432_startup_ewarm.o [1]
+                                  - 0x144   0x144
+
+"P1":                                      0x3588
+  .text              ro code        0x144   0xbbc  tasks.o [1]
+  .text              ro code        0xd00   0x268  heap_4.o [1]
+  .text              ro code        0xf68    0x66  ABImemset.o [4]
+  .text              ro code        0xfce    0x98  list.o [1]
+  .text              ro code       0x1066    0x3a  zero_init3.o [4]
+  .text              ro code       0x10a0   0x380  port.o [1]
+  .text              ro code       0x1420   0x3e8  timers.o [1]
+  .text              ro code       0x1808   0x168  main_blinky.o [1]
+  .text              ro code       0x1970    0x56  main.o [1]
+  .text              ro code       0x19c8    0x70  port.o [1]
+  CODE               ro code       0x1a38    0xb0  portasm.o [1]
+  .text              ro code       0x1ae8   0x748  queue.o [1]
+  .text              ro code       0x2230   0x128  gpio.o [1]
+  .text              ro code       0x2358    0x34  flash.o [1]
+  .text              ro code       0x238c   0x488  cs.o [1]
+  .text              ro code       0x2814   0x2a4  pcm.o [1]
+  .text              ro code       0x2ab8    0x6c  interrupt.o [1]
+  .text              ro code       0x2b24    0x18  wdt_a.o [1]
+  .text              ro code       0x2b3c    0x10  fpu.o [1]
+  .text              ro code       0x2b4c    0xa6  ABImemcpy.o [4]
+  .text              ro code       0x2bf4    0x50  sysctl.o [1]
+  CODE               ro code       0x2c44   0x3e4  RegTest.o [1]
+  .text              ro code       0x3028   0x33c  IntQueue.o [1]
+  .text              ro code       0x3364    0xa0  serial.o [1]
+  .text              ro code       0x3404    0x80  uart.o [1]
+  .text              ro code       0x3484    0x90  system_msp432p401r.o [1]
+  .text              ro code       0x3514    0x50  IntQueueTimer.o [1]
+  .text              ro code       0x3564     0xa  timer32.o [1]
+  .text              ro code       0x356e    0x2c  copy_init3.o [4]
+  .text              ro code       0x359c    0x28  data_init.o [4]
+  .text              ro code       0x35c4    0x22  fpinit_M.o [3]
+  .iar.init_table    const         0x35e8    0x24  - Linker created -
+  .text              ro code       0x360c    0x1e  cmain.o [4]
+  .text              ro code       0x362a     0x4  low_level_init.o [2]
+  .text              ro code       0x362e     0x4  exit.o [2]
+  .text              ro code       0x3634     0xa  cexit.o [4]
+  .text              ro code       0x3640     0xc  XXexit.o [4]
+  .text              ro code       0x364c    0x12  msp432_startup_ewarm.o [1]
+  .text              ro code       0x365e     0xc  cstartup_M.o [4]
+  .rodata            const         0x366c     0x8  interrupt.o [1]
+  .rodata            const         0x3674     0x8  tasks.o [1]
+  .rodata            const         0x367c     0x8  timers.o [1]
+  .rodata            const         0x3684     0x4  heap_4.o [1]
+  .rodata            const         0x3688     0x4  main_blinky.o [1]
+  .rodata            const         0x368c     0x4  port.o [1]
+  .rodata            const         0x3690     0x4  serial.o [1]
+  .rodata            const         0x3694     0x0  zero_init3.o [4]
+  .rodata            const         0x3694     0x0  copy_init3.o [4]
+  Initializer bytes  const         0x3694    0x38  <for P3 s0>
+                                 - 0x36cc  0x3588
+
+"P3", part 1 of 3:                           0x38
+  P3 s0                       0x2000'0000    0x38  <Init block>
+    .data            inited   0x2000'0000    0x30  gpio.o [1]
+    .data            inited   0x2000'0030     0x4  IntQueue.o [1]
+    .data            inited   0x2000'0034     0x4  port.o [1]
+                            - 0x2000'0038    0x38
+
+"P3", part 2 of 3:                         0xcb40
+  .bss               zero     0x2000'0038  0xc800  heap_4.o [1]
+  .bss               zero     0x2000'c838    0xc8  IntQueue.o [1]
+  .bss               zero     0x2000'c900    0xc8  IntQueue.o [1]
+  .bss               zero     0x2000'c9c8    0x64  tasks.o [1]
+  .bss               zero     0x2000'ca2c    0x14  tasks.o [1]
+  .bss               zero     0x2000'ca40    0x14  tasks.o [1]
+  .bss               zero     0x2000'ca54    0x14  tasks.o [1]
+  .bss               zero     0x2000'ca68    0x14  tasks.o [1]
+  .bss               zero     0x2000'ca7c    0x14  tasks.o [1]
+  .bss               zero     0x2000'ca90    0x14  timers.o [1]
+  .bss               zero     0x2000'caa4    0x14  timers.o [1]
+  .bss               zero     0x2000'cab8     0x8  heap_4.o [1]
+  .bss               zero     0x2000'cac0     0x4  cs.o [1]
+  .bss               zero     0x2000'cac4     0x4  cs.o [1]
+  .bss               zero     0x2000'cac8     0x4  heap_4.o [1]
+  .bss               zero     0x2000'cacc     0x4  heap_4.o [1]
+  .bss               zero     0x2000'cad0     0x4  heap_4.o [1]
+  .bss               zero     0x2000'cad4     0x4  heap_4.o [1]
+  .bss               zero     0x2000'cad8     0x4  IntQueue.o [1]
+  .bss               zero     0x2000'cadc     0x4  IntQueue.o [1]
+  .bss               zero     0x2000'cae0     0x4  IntQueue.o [1]
+  .bss               zero     0x2000'cae4     0x4  IntQueue.o [1]
+  .bss               zero     0x2000'cae8     0x4  IntQueue.o [1]
+  .bss               zero     0x2000'caec     0x4  IntQueue.o [1]
+  .bss               zero     0x2000'caf0     0x4  IntQueue.o [1]
+  .bss               zero     0x2000'caf4     0x4  main_blinky.o [1]
+  .bss               zero     0x2000'caf8     0x4  main_blinky.o [1]
+  .bss               zero     0x2000'cafc     0x4  main_full.o [1]
+  .bss               zero     0x2000'cb00     0x4  main_full.o [1]
+  .bss               zero     0x2000'cb04     0x4  port.o [1]
+  .bss               zero     0x2000'cb08     0x4  port.o [1]
+  .bss               zero     0x2000'cb0c     0x4  port.o [1]
+  .bss               zero     0x2000'cb10     0x4  port.o [1]
+  .bss               zero     0x2000'cb14     0x4  serial.o [1]
+  .bss               zero     0x2000'cb18     0x4  serial.o [1]
+  .bss               zero     0x2000'cb1c     0x4  serial.o [1]
+  .bss               zero     0x2000'cb20     0x4  serial.o [1]
+  .bss               zero     0x2000'cb24     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb28     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb2c     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb30     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb34     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb38     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb3c     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb40     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb44     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb48     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb4c     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb50     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb54     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb58     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb5c     0x4  tasks.o [1]
+  .bss               zero     0x2000'cb60     0x4  timers.o [1]
+  .bss               zero     0x2000'cb64     0x4  timers.o [1]
+  .bss               zero     0x2000'cb68     0x4  timers.o [1]
+  .bss               zero     0x2000'cb6c     0x4  timers.o [1]
+  .bss               zero     0x2000'cb70     0x4  timers.o [1]
+  .bss               zero     0x2000'cb74     0x1  port.o [1]
+                            - 0x2000'cb75  0xcb3d
+
+"P3", part 3 of 3:                          0x200
+  .noinit            uninit   0x2000'cb78   0x200  msp432_startup_ewarm.o [1]
+                            - 0x2000'cd78   0x200
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x36cc     0x3'ffff  0x3'c934
+  0x2000'cd78  0x2000'ffff    0x3288
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xcb3d:
+          0x2000'0038  0xcb3d
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x38:
+               0x3694    0x38
+    1 destination range, total size 0x38:
+          0x2000'0000    0x38
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj: [1]
+    IntQueue.o                  828        4      432
+    IntQueueTimer.o              80
+    RegTest.o                   996
+    cs.o                      1 160                 8
+    flash.o                      52
+    fpu.o                        16
+    gpio.o                      296       48       48
+    heap_4.o                    616        4   51 224
+    interrupt.o                 108        8
+    list.o                      152
+    main.o                       86
+    main_blinky.o               360        4        8
+    main_full.o                                     8
+    msp432_startup_ewarm.o       18      324      512
+    pcm.o                       676
+    port.o                    1 008        8       21
+    portasm.o                   176
+    queue.o                   1 864
+    serial.o                    160        4       16
+    sysctl.o                     80
+    system_msp432p401r.o        144
+    tasks.o                   3 004        8      260
+    timer32.o                    10
+    timers.o                  1 000        8       60
+    uart.o                      128
+    wdt_a.o                      24
+    -------------------------------------------------
+    Total:                   13 042      420   52 597
+
+dl7M_tln.a: [2]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tls.a: [3]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [4]
+    ABImemcpy.o                 166
+    ABImemset.o                 102
+    XXexit.o                     12
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 44
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 58
+    -------------------------------------------------
+    Total:                      474
+
+    Gaps                         10        4
+    Linker created                        36
+-----------------------------------------------------
+    Grand Total:             13 568      460   52 597
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base        0x35e8           --   Gb  - Linker created -
+.iar.init_table$$Limit       0x360c           --   Gb  - Linker created -
+?main                        0x360d          Code  Gb  cmain.o [4]
+CS_clearInterruptFlag        0x2799    0x18  Code  Gb  cs.o [1]
+CS_getDCOFrequency           0x2631   0x148  Code  Gb  cs.o [1]
+CS_getMCLK                   0x2779    0x18  Code  Gb  cs.o [1]
+CS_initClockSignal           0x251f    0xf0  Code  Gb  cs.o [1]
+CS_setDCOCenteredFrequency
+                             0x260f    0x22  Code  Gb  cs.o [1]
+FPU_enableModule             0x2b3d     0xc  Code  Gb  fpu.o [1]
+FaultISR                     0x365b     0x2  Code  Lc  msp432_startup_ewarm.o [1]
+FlashCtl_setWaitState        0x2359    0x2c  Code  Gb  flash.o [1]
+GPIO_PORT_TO_BASE       0x2000'0000    0x30  Data  Lc  gpio.o [1]
+GPIO_enableInterrupt         0x2341    0x14  Code  Gb  gpio.o [1]
+GPIO_setAsInputPinWithPullUpResistor
+                             0x22ff    0x42  Code  Gb  gpio.o [1]
+GPIO_setAsOutputPin          0x2231    0x30  Code  Gb  gpio.o [1]
+GPIO_setAsPeripheralModuleFunctionInputPin
+                             0x2261    0x78  Code  Gb  gpio.o [1]
+GPIO_setOutputLowOnPin       0x22d9    0x14  Code  Gb  gpio.o [1]
+GPIO_toggleOutputOnPin       0x22ed    0x12  Code  Gb  gpio.o [1]
+IntDefaultHandler            0x365d     0x2  Code  Lc  msp432_startup_ewarm.o [1]
+Interrupt_enableInterrupt
+                             0x2ab9    0x5e  Code  Gb  interrupt.o [1]
+NmiSR                        0x3659     0x2  Code  Lc  msp432_startup_ewarm.o [1]
+PCM_getCoreVoltageLevel
+                             0x2937    0x4e  Code  Gb  pcm.o [1]
+PCM_getPowerMode             0x28f9    0x3e  Code  Gb  pcm.o [1]
+PCM_getPowerState            0x2a8f     0x8  Code  Gb  pcm.o [1]
+PCM_setCoreVoltageLevel
+                             0x28ed     0xc  Code  Gb  pcm.o [1]
+PCM_setPowerMode             0x2a83     0xc  Code  Gb  pcm.o [1]
+PORT1_IRQHandler             0x1945     0xe  Code  Gb  main_blinky.o [1]
+PORT1_IRQHandler::ux    0x2000'caf8     0x4  Data  Lc  main_blinky.o [1]
+PendSV_Handler               0x1a39          Code  Gb  portasm.o [1]
+Region$$Table$$Base          0x35e8           --   Gb  - Linker created -
+Region$$Table$$Limit         0x360c           --   Gb  - Linker created -
+ResetISR                     0x364d     0xc  Code  Gb  msp432_startup_ewarm.o [1]
+SVC_Handler                  0x1a91          Code  Gb  portasm.o [1]
+SysCtl_getTLVInfo            0x2bf5    0x48  Code  Gb  sysctl.o [1]
+SysTick_Handler              0x123b    0x28  Code  Gb  port.o [1]
+SystemInit                   0x3485    0x5e  Code  Gb  system_msp432p401r.o [1]
+Timer32_clearInterruptFlag
+                             0x3565     0xa  Code  Gb  timer32.o [1]
+UART_disableInterrupt        0x342f    0x1a  Code  Gb  uart.o [1]
+UART_getEnabledInterruptStatus
+                             0x3453    0x32  Code  Gb  uart.o [1]
+UART_getInterruptStatus
+                             0x3449     0xa  Code  Gb  uart.o [1]
+UART_receiveData             0x3405    0x2a  Code  Gb  uart.o [1]
+WDT_A_holdTimer              0x2b25    0x12  Code  Gb  wdt_a.o [1]
+_CSComputeCLKFrequency       0x23e1    0xe8  Code  Lc  cs.o [1]
+_CSGetDOCFrequency           0x24c9    0x56  Code  Lc  cs.o [1]
+_CSGetDividerValue           0x238d    0x54  Code  Lc  cs.o [1]
+__PCM_setCoreVoltageLevelAdvanced
+                             0x2815    0xd8  Code  Lc  pcm.o [1]
+__PCM_setPowerModeAdvanced
+                             0x2985    0xfe  Code  Lc  pcm.o [1]
+__aeabi_memcpy               0x2b4d          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4              0x2b6d          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8              0x2b6d          Code  Gb  ABImemcpy.o [4]
+__aeabi_memset                0xf69          Code  Gb  ABImemset.o [4]
+__cmain                      0x360d          Code  Gb  cmain.o [4]
+__exit                       0x3641          Code  Gb  XXexit.o [4]
+__iar_Memset                  0xf69          Code  Gb  ABImemset.o [4]
+__iar_Memset_word             0xf71          Code  Gb  ABImemset.o [4]
+__iar_copy_init3             0x356f    0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3             0x359d    0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp               0x35c5          Code  Gb  fpinit_M.o [3]
+__iar_program_start          0x365f          Code  Gb  cstartup_M.o [4]
+__iar_zero_init3             0x1067    0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init             0x362b     0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0   0x144  Data  Gb  msp432_startup_ewarm.o [1]
+_call_main                   0x3619          Code  Gb  cmain.o [4]
+_exit                        0x3635          Code  Gb  cexit.o [4]
+_main                        0x3627          Code  Gb  cmain.o [4]
+eTaskConfirmSleepModeStatus
+                              0x999    0x38  Code  Gb  tasks.o [1]
+exit                         0x362f     0x4  Code  Gb  exit.o [2]
+g_pulEnRegs                  0x366c     0x8  Data  Lc  interrupt.o [1]
+hfxtFreq                0x2000'cac0     0x4  Data  Lc  cs.o [1]
+lfxtFreq                0x2000'cac4     0x4  Data  Lc  cs.o [1]
+main                         0x1971     0xe  Code  Gb  main.o [1]
+main_blinky                  0x1809    0x52  Code  Gb  main_blinky.o [1]
+pcInterruptPriorityRegisters
+                             0x368c     0x4  Data  Lc  port.o [1]
+pcStringEnd             0x2000'cb1c     0x4  Data  Lc  serial.o [1]
+pcStringStart           0x2000'cb18     0x4  Data  Lc  serial.o [1]
+prvAddCurrentTaskToDelayedList
+                              0xc4d    0x6e  Code  Lc  tasks.o [1]
+prvAddNewTaskToReadyList
+                              0x27d    0x9e  Code  Lc  tasks.o [1]
+prvCheckForValidListAndQueue
+                             0x17ab    0x38  Code  Lc  timers.o [1]
+prvCheckTasksWaitingTermination
+                              0xa25    0x3c  Code  Lc  tasks.o [1]
+prvConfigureButton           0x192b    0x1a  Code  Lc  main_blinky.o [1]
+prvConfigureClocks           0x18e1    0x4a  Code  Lc  main_blinky.o [1]
+prvCopyDataFromQueue         0x20f1    0x2a  Code  Lc  queue.o [1]
+prvCopyDataToQueue           0x206b    0x86  Code  Lc  queue.o [1]
+prvDeleteTCB                  0xa61    0x12  Code  Lc  tasks.o [1]
+prvGetExpectedIdleTime        0x483    0x46  Code  Lc  tasks.o [1]
+prvGetNextExpireTime         0x15b3    0x26  Code  Lc  timers.o [1]
+prvHeapInit                   0xe8f    0x5e  Code  Lc  heap_4.o [1]
+prvIdleTask                   0x931    0x60  Code  Lc  tasks.o [1]
+prvInitialiseNewQueue        0x1bc7    0x22  Code  Lc  queue.o [1]
+prvInitialiseNewTask          0x1b3    0xca  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists        0x9d1    0x54  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                              0xeed    0x5e  Code  Lc  heap_4.o [1]
+prvInsertTimerInActiveList
+                             0x15ff    0x3e  Code  Lc  timers.o [1]
+prvIsQueueEmpty              0x2189    0x1c  Code  Lc  queue.o [1]
+prvIsQueueFull               0x21a5    0x1e  Code  Lc  queue.o [1]
+prvProcessExpiredTimer       0x14cb    0x5a  Code  Lc  timers.o [1]
+prvProcessReceivedCommands
+                             0x163d    0xfc  Code  Lc  timers.o [1]
+prvProcessTimerOrBlockTask
+                             0x153d    0x76  Code  Lc  timers.o [1]
+prvQueueAccessLogError       0x3065    0x10  Code  Lc  IntQueue.o [1]
+prvQueueReceiveTask          0x1899    0x48  Code  Lc  main_blinky.o [1]
+prvQueueReceiveTask::xShortBlock
+                             0x3688     0x4  Data  Lc  main_blinky.o [1]
+prvQueueSendTask             0x185d    0x3c  Code  Lc  main_blinky.o [1]
+prvRecordValue_NormallyEmpty
+                             0x3047    0x1e  Code  Lc  IntQueue.o [1]
+prvRecordValue_NormallyFull
+                             0x3029    0x1e  Code  Lc  IntQueue.o [1]
+prvResetNextTaskUnblockTime
+                              0xa73    0x24  Code  Lc  tasks.o [1]
+prvSampleTimeNow             0x15d9    0x26  Code  Lc  timers.o [1]
+prvSampleTimeNow::xLastTime
+                        0x2000'cb70     0x4  Data  Lc  timers.o [1]
+prvSetupHardware             0x197f    0x26  Code  Lc  main.o [1]
+prvSwitchTimerLists          0x1739    0x72  Code  Lc  timers.o [1]
+prvTaskExitError             0x10c9    0x2a  Code  Lc  port.o [1]
+prvTimerTask                 0x1529    0x14  Code  Lc  timers.o [1]
+prvUnlockQueue               0x211b    0x6e  Code  Lc  queue.o [1]
+pvPortMalloc                  0xd01   0x11c  Code  Gb  heap_4.o [1]
+pxCurrentTCB            0x2000'cb24     0x4  Data  Gb  tasks.o [1]
+pxCurrentTimerList      0x2000'cb60     0x4  Data  Lc  timers.o [1]
+pxDelayedTaskList       0x2000'cb28     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x2000'cac8     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x2000'cb2c     0x4  Data  Lc  tasks.o [1]
+pxOverflowTimerList     0x2000'cb64     0x4  Data  Lc  timers.o [1]
+pxPortInitialiseStack        0x10a1    0x28  Code  Gb  port.o [1]
+pxReadyTasksLists       0x2000'c9c8    0x64  Data  Lc  tasks.o [1]
+pxUARTA0                     0x3690     0x4  Data  Lc  serial.o [1]
+systemStack             0x2000'cb78   0x200  Data  Lc  msp432_startup_ewarm.o [1]
+ucHeap                  0x2000'0038  0xc800  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x2000'cb74     0x1  Data  Lc  port.o [1]
+ucNormallyEmptyReceivedValues
+                        0x2000'c838    0xc8  Data  Lc  IntQueue.o [1]
+ucNormallyFullReceivedValues
+                        0x2000'c900    0xc8  Data  Lc  IntQueue.o [1]
+ulMaxPRIGROUPValue      0x2000'cb10     0x4  Data  Lc  port.o [1]
+ulRegTest1LoopCounter   0x2000'cafc     0x4  Data  Gb  main_full.o [1]
+ulRegTest2LoopCounter   0x2000'cb00     0x4  Data  Gb  main_full.o [1]
+ulStoppedTimerCompensation
+                        0x2000'cb0c     0x4  Data  Lc  port.o [1]
+ulTimerCountsForOneTick
+                        0x2000'cb04     0x4  Data  Lc  port.o [1]
+uxCriticalNesting       0x2000'0034     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x2000'cb34     0x4  Data  Lc  tasks.o [1]
+uxDeletedTasksWaitingCleanUp
+                        0x2000'cb30     0x4  Data  Lc  tasks.o [1]
+uxListRemove                 0x1041    0x26  Code  Gb  list.o [1]
+uxPendedTicks           0x2000'cb44     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x2000'cb5c     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x2000'cb50     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x2000'cb3c     0x4  Data  Lc  tasks.o [1]
+uxValueForNormallyEmptyQueue
+                        0x2000'cae4     0x4  Data  Lc  IntQueue.o [1]
+uxValueForNormallyFullQueue
+                        0x2000'cae8     0x4  Data  Lc  IntQueue.o [1]
+vApplicationIdleHook         0x19b5     0x2  Code  Gb  main.o [1]
+vApplicationMallocFailedHook
+                             0x19a5    0x10  Code  Gb  main.o [1]
+vApplicationStackOverflowHook
+                             0x19b7    0x10  Code  Gb  main.o [1]
+vApplicationTickHook         0x196f     0x2  Code  Gb  main_blinky.o [1]
+vListInitialise               0xfcf    0x1e  Code  Gb  list.o [1]
+vListInitialiseItem           0xfed     0x6  Code  Gb  list.o [1]
+vListInsert                  0x100b    0x36  Code  Gb  list.o [1]
+vListInsertEnd                0xff3    0x18  Code  Gb  list.o [1]
+vPortEnableVFP               0x1acd          Code  Gb  portasm.o [1]
+vPortEnterCritical           0x11db    0x34  Code  Gb  port.o [1]
+vPortExitCritical            0x120f    0x2c  Code  Gb  port.o [1]
+vPortFree                     0xe1d    0x72  Code  Gb  heap_4.o [1]
+vPortStartFirstTask          0x1aad          Code  Gb  portasm.o [1]
+vPortSuppressTicksAndSleep
+                             0x12e1   0x140  Code  Wk  port.o [1]
+vPortValidateInterruptPriority
+                             0x1265    0x4a  Code  Gb  port.o [1]
+vPreSleepProcessing          0x196d     0x2  Code  Gb  main_blinky.o [1]
+vQueueWaitForMessageRestricted
+                             0x21e7    0x4a  Code  Gb  queue.o [1]
+vRegTest1Implementation
+                             0x2c45          Code  Gb  RegTest.o [1]
+vRegTest2Implementation
+                             0x2dcf          Code  Gb  RegTest.o [1]
+vT32_0_Handler               0x3515    0x22  Code  Gb  IntQueueTimer.o [1]
+vT32_1_Handler               0x3537    0x22  Code  Gb  IntQueueTimer.o [1]
+vTaskDelay                    0x3bf    0x4c  Code  Gb  tasks.o [1]
+vTaskDelayUntil               0x31b    0xa4  Code  Gb  tasks.o [1]
+vTaskInternalSetTimeOutState
+                              0x885    0x12  Code  Gb  tasks.o [1]
+vTaskMissedYield              0x925     0xa  Code  Gb  tasks.o [1]
+vTaskNotifyGiveFromISR        0xb99    0xb4  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList         0x77b    0x2e  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventListRestricted
+                              0x7b1    0x38  Code  Gb  tasks.o [1]
+vTaskStartScheduler           0x40b    0x6c  Code  Gb  tasks.o [1]
+vTaskStepTick                 0x5b5    0x2a  Code  Gb  tasks.o [1]
+vTaskSuspendAll               0x477     0xc  Code  Gb  tasks.o [1]
+vTaskSwitchContext            0x6e3    0x98  Code  Gb  tasks.o [1]
+vUART_Handler                0x3365    0x84  Code  Gb  serial.o [1]
+xActiveTimerList1       0x2000'ca90    0x14  Data  Lc  timers.o [1]
+xActiveTimerList2       0x2000'caa4    0x14  Data  Lc  timers.o [1]
+xBlockAllocatedBit      0x2000'cad4     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x2000'ca2c    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x2000'ca40    0x14  Data  Lc  tasks.o [1]
+xErrorLine              0x2000'cae0     0x4  Data  Lc  IntQueue.o [1]
+xErrorStatus            0x2000'0030     0x4  Data  Lc  IntQueue.o [1]
+xFirstTimerHandler           0x3075   0x11c  Code  Gb  IntQueue.o [1]
+xFirstTimerHandler::uxNextOperation
+                        0x2000'caec     0x4  Data  Lc  IntQueue.o [1]
+xFreeBytesRemaining     0x2000'cacc     0x4  Data  Lc  heap_4.o [1]
+xHeapStructSize              0x3684     0x4  Data  Lc  heap_4.o [1]
+xIdleTaskHandle         0x2000'cb58     0x4  Data  Lc  tasks.o [1]
+xMaximumPossibleSuppressedTicks
+                        0x2000'cb08     0x4  Data  Lc  port.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x2000'cad0     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x2000'cb54     0x4  Data  Lc  tasks.o [1]
+xNormallyEmptyQueue     0x2000'cad8     0x4  Data  Lc  IntQueue.o [1]
+xNormallyFullQueue      0x2000'cadc     0x4  Data  Lc  IntQueue.o [1]
+xNumOfOverflows         0x2000'cb4c     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x2000'ca54    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler          0x10f3    0xe8  Code  Gb  port.o [1]
+xQueue                  0x2000'caf4     0x4  Data  Lc  main_blinky.o [1]
+xQueueGenericCreate          0x1b7b    0x4c  Code  Gb  queue.o [1]
+xQueueGenericReset           0x1ae9    0x92  Code  Gb  queue.o [1]
+xQueueGenericSend            0x1be9   0x196  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                             0x1d7f    0xde  Code  Gb  queue.o [1]
+xQueueIsQueueFullFromISR
+                             0x21c3    0x24  Code  Gb  queue.o [1]
+xQueueReceive                0x1e5d   0x15a  Code  Gb  queue.o [1]
+xQueueReceiveFromISR         0x1fbd    0xae  Code  Gb  queue.o [1]
+xRxQueue                0x2000'cb14     0x4  Data  Lc  serial.o [1]
+xSchedulerRunning       0x2000'cb40     0x4  Data  Lc  tasks.o [1]
+xSecondTimerHandler          0x3191   0x1aa  Code  Gb  IntQueue.o [1]
+xSecondTimerHandler::uxNextOperation
+                        0x2000'caf0     0x4  Data  Lc  IntQueue.o [1]
+xStart                  0x2000'cab8     0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x2000'ca7c    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut          0x89d    0x82  Code  Gb  tasks.o [1]
+xTaskCreate                   0x145    0x6e  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState        0xa9d    0x20  Code  Gb  tasks.o [1]
+xTaskGetTickCount             0x5ad     0x8  Code  Gb  tasks.o [1]
+xTaskIncrementTick            0x5df   0x104  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                              0xac9    0xae  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                              0x7f9    0x86  Code  Gb  tasks.o [1]
+xTaskResumeAll                0x4c9    0xe4  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x2000'ca68    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x2000'cb38     0x4  Data  Lc  tasks.o [1]
+xTimerCreateTimerTask        0x1421    0x46  Code  Gb  timers.o [1]
+xTimerGenericCommand         0x1467    0x64  Code  Gb  timers.o [1]
+xTimerQueue             0x2000'cb68     0x4  Data  Lc  timers.o [1]
+xTimerTaskHandle        0x2000'cb6c     0x4  Data  Lc  timers.o [1]
+xTransmittingTask       0x2000'cb20     0x4  Data  Lc  serial.o [1]
+xYieldPending           0x2000'cb48     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = E:\Dropbox\referenceJZ\CSE\FreeRTOS\FreeRTOSv10.1.1\FreeRTOS\Demo\CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil\IAR_Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+
+  13 568 bytes of readonly  code memory
+     460 bytes of readonly  data memory
+  52 597 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
